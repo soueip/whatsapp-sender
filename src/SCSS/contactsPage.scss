@@ -1,0 +1,241 @@
+.contactsPage,
+.createContactPage,
+.bulkContactPage {
+  font-family: "Ubuntu", sans-serif !important;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerTitle {
+    font-size: 19px;
+  }
+  .addTitle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .addBtn {
+    margin-left: 1%;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif !important;
+    background-color: #46a24a;
+    border: none;
+    color: white;
+    font-size: 13px !important;
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .addBtn.bulk {
+    background-color: #40a8bc;
+  }
+  .addbtntitle {
+    flex: 0.8;
+    text-align: center;
+  }
+  .plusBold {
+    font-size: 29px;
+    flex: 0.2;
+    text-align: center;
+    background-color: #3c8a3f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .plusBold.bulk {
+    background-color: #397783;
+  }
+  .bodyA {
+    margin-top: 5%;
+  }
+  .bodyAtitle {
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: white;
+    border: solid 1px gray;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+  }
+  .bodyAtitle.contact {
+    justify-content: space-between;
+  }
+  .tableDiv {
+    // overflow-x: hidden;
+    // overflow-y: scroll;
+    // max-height: 400px;
+  }
+  table {
+    min-width: 100%;
+    overflow: scroll;
+  }
+  .thA {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+  }
+  table,
+  thead,
+  tbody,
+  tr {
+    border: solid 1px gray;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+  td {
+    font-size: 13px;
+  }
+  .tdA {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #accIcon {
+    font-size: 35px;
+  }
+  .idSpan {
+    margin-left: 7%;
+    color: #40a8bc;
+    font-size: 13px;
+    margin-right: 10%;
+  }
+  .name {
+    text-align: left;
+    font-size: 13px;
+  }
+  .no {
+    text-align: left;
+    font-size: 13px;
+  }
+  .rocketBtn {
+    border: none;
+    background-color: #40a8bc;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 12px;
+  }
+  #rocketIcon {
+    font-size: 20px;
+  }
+  #devFold {
+    font-size: 20px;
+  }
+  .rocketIcon {
+    padding-right: 5%;
+  }
+  .success {
+    color: #fff;
+    font-size: 12px;
+    background-color: #4caf50;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  .inactive {
+    background-color: #f15438;
+  }
+  .paybtn {
+    background-color: #4caf50;
+  }
+  .tdE {
+    margin-right: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2%;
+  }
+  .accSpan {
+    margin-left: 5%;
+  }
+  .atcSpan {
+    flex: 0.5;
+  }
+  .atdSpan {
+    flex: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    .rocketBtn {
+      width: 25%;
+    }
+  }
+}
+.createContactPage,
+.bulkContactPage {
+  .inputsDivs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .conDiv {
+    margin-right: 5px;
+  }
+  .conInputDiv {
+    background-color: #e8f0fe;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 5px;
+
+    .conSpan {
+      flex: 0.1;
+      text-align: end;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .conInput {
+      margin-left: 5px;
+      flex: 0.85;
+    }
+    input,
+    select {
+      background-color: #e8f0fe;
+      border: none;
+      width: 100%;
+      height: 100%;
+      font-size: 15px;
+    }
+    input:focus,
+    select:focus {
+      outline: none;
+    }
+  }
+  .submitInDiv {
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #1f8be1;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #countrySelect {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 100vh;
+  }
+}
+.bulkContactPage {
+  .bodyA,
+  .bodyB {
+    .conDiv {
+      width: 300px;
+    }
+  }
+  .bodyB {
+    margin-top: 3%;
+  }
+}

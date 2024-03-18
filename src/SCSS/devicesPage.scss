@@ -1,0 +1,151 @@
+.devicesPage {
+  font-family: "Ubuntu", sans-serif !important;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerTitle {
+    font-size: 19px;
+  }
+  .addTitle {
+  }
+  .addBtn {
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif !important;
+    background-color: #46a24a;
+    border: none;
+    color: white;
+    font-size: 13px !important;
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .addbtntitle {
+    flex: 0.8;
+    text-align: center;
+  }
+  .plusBold {
+    font-size: 29px;
+    flex: 0.2;
+    text-align: center;
+    background-color: #3c8a3f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .bodyA {
+    margin-top: 5%;
+  }
+  .bodyAtitle {
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: white;
+    border: solid 1px gray;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+  }
+  table {
+    min-width: 100%;
+    overflow: scroll;
+  }
+  .thA {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1%;
+  }
+  table,
+  thead,
+  tbody,
+  tr {
+    border: solid 1px gray;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+  td {
+    font-size: 13px;
+  }
+  .tdA {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #accIcon {
+    font-size: 35px;
+  }
+
+  .accSpan {
+    flex: 0.1;
+  }
+  .idSpan {
+    // margin-left: 7%;
+    flex: 0.45;
+    color: #40a8bc;
+    font-size: 13px;
+    text-align: center;
+    // margin-right: 10%;
+  }
+  .nameNo {
+    flex: 0.45;
+  }
+  .name {
+    text-align: left;
+    font-size: 13px;
+  }
+  .no {
+    text-align: left;
+    font-size: 13px;
+  }
+  .rocketBtn {
+    border: none;
+    background-color: #40a8bc;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 12px;
+  }
+  .rocketBtn.delbtn {
+    background-color: #f15438;
+  }
+  #rocketIcon {
+    font-size: 20px;
+  }
+  #devFold {
+    font-size: 20px;
+  }
+  .rocketIcon {
+    padding-right: 5%;
+  }
+  .success {
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  .success.Inactive {
+    background-color: #f15438;
+  }
+  .success.Active {
+    background-color: #4caf50;
+  }
+  .paybtn {
+    background-color: #4caf50;
+  }
+  .tdE {
+    margin-right: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2%;
+  }
+}

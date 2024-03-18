@@ -1,0 +1,151 @@
+.registerPage {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #09b59c;
+  font-family: "Ubuntu", sans-serif;
+  .regisPage {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    width: 300px;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  #spaIcon {
+    font-size: 40px;
+    color: #09b59c;
+  }
+  .senderSpan {
+    color: #09b59c;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .signInTitle {
+    margin-top: 5%;
+    color: gray;
+    text-align: center;
+  }
+  .mailDiv {
+    margin-top: 12%;
+  }
+  .mailInputDiv {
+    background-color: #e8f0fe;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 5px;
+
+    .mailSpan {
+      flex: 0.1;
+      text-align: end;
+    }
+    .mailInput {
+      margin-left: 5px;
+      flex: 0.85;
+    }
+    input {
+      background-color: #e8f0fe;
+      border: none;
+      width: 100%;
+      height: 100%;
+      font-size: 15px;
+    }
+    input:focus {
+      outline: none;
+    }
+  }
+  .passwordDiv {
+    margin-top: 7%;
+  }
+  .passwordInputDiv {
+    background-color: #e8f0fe;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 5px;
+
+    .passwordSpan {
+      flex: 0.1;
+      text-align: end;
+    }
+    .passwordInput {
+      margin-left: 5px;
+      flex: 0.85;
+    }
+    input {
+      background-color: #e8f0fe;
+      border: none;
+      width: 100%;
+      height: 100%;
+      font-size: 15px;
+    }
+    input:focus {
+      outline: none;
+    }
+  }
+  .forgot {
+    margin-top: 10%;
+    text-align: end;
+    color: #1f8be1;
+    font-size: 13px;
+  }
+  .signInDiv {
+    margin-top: 5%;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #1f8be1;
+    color: white;
+    text-align: center;
+    padding: 11px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #loginIcon {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  .noDiv {
+    margin-top: 8%;
+  }
+  .noDivTitle {
+    font-size: 13px;
+    position: relative;
+    color: gray;
+    background-color: white;
+    padding: 0px 13px;
+    top: -20px;
+    left: 25%;
+  }
+  .signUpDiv {
+    margin-top: 3%;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    padding: 11px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+  }
+}

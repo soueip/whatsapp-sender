@@ -1,0 +1,74 @@
+.dashBoardPage {
+  font-family: "Ubuntu", sans-serif !important;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerTitle {
+    font-size: 19px;
+  }
+  .bodyA {
+    margin-top: 5%;
+  }
+  .bodyDash {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 1%;
+  }
+  .activeDiv {
+    border: solid 1px green;
+    background-color: #4caf50;
+    border-radius: 5px;
+    width: 300px;
+    color: white;
+  }
+  .activeDiv.expiry {
+    border: solid 1px red;
+    background-color: #f44336;
+  }
+  .activeDiv.inactive {
+    border: solid 1px gray;
+    background-color: lightgrey;
+  }
+  .activeTop {
+    border-bottom: solid 1px green;
+    padding: 20px;
+  }
+  .activeTop.expiry {
+    border-bottom: solid 1px red;
+  }
+  .activeTop.inactive {
+    border-bottom: solid 1px gray;
+  }
+  .activeTop,
+  .activeBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .activeBottom {
+    padding: 10px;
+  }
+  .activeNumber {
+    font-size: 21px;
+  }
+  .activeText {
+    font-size: 13px;
+  }
+  .activeIcon {
+  }
+  #actIcon {
+    font-size: 40px;
+  }
+  .botText {
+    font-size: 13px;
+  }
+  .botIcon {
+    font-size: 13px;
+  }
+  #deIcon {
+    font-size: 13px;
+  }
+}

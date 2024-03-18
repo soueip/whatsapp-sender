@@ -1,0 +1,240 @@
+.logPage {
+  font-family: "Ubuntu", sans-serif !important;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerTitle {
+    font-size: 19px;
+  }
+  .bodyA {
+    margin-top: 5%;
+  }
+  .buttonsDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .chatBtn {
+    width: 10%;
+    font-size: 13px;
+    background-color: #263238;
+    color: white;
+    padding: 10px 4px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+  }
+  .iconSpan {
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textSpan {
+    flex: 0.8;
+  }
+  #chatIcon {
+    font-size: 18px;
+  }
+  .bodyAtitle {
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: white;
+    // border: solid 1px gray;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+  }
+  .tableDiv {
+    // overflow-x: hidden;
+    // overflow-y: scroll;
+    // max-height: 400px;
+  }
+  table {
+    min-width: 100%;
+    overflow: scroll;
+  }
+  .thA {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+  }
+  table,
+  thead,
+  tbody,
+  tr {
+    border: solid 1px gray;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+  td {
+    font-size: 13px;
+  }
+  .tdA {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #accIcon {
+    font-size: 35px;
+  }
+  .idSpan {
+    margin-left: 7%;
+    color: #40a8bc;
+    font-size: 13px;
+    margin-right: 10%;
+  }
+  .name {
+    text-align: left;
+    font-size: 13px;
+  }
+  .no {
+    text-align: left;
+    font-size: 13px;
+  }
+  .rocketBtn {
+    border: none;
+    background-color: #40a8bc;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 12px;
+  }
+  #rocketIcon {
+    font-size: 20px;
+  }
+  #devFold {
+    font-size: 20px;
+  }
+  .rocketIcon {
+    padding-right: 5%;
+  }
+  .success {
+    color: #fff;
+    font-size: 12px;
+    background-color: #4caf50;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  .inactive {
+    background-color: #f15438;
+  }
+  .paybtn {
+    background-color: #4caf50;
+  }
+  .tdE {
+    margin-right: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2%;
+  }
+  .accSpan {
+    margin-left: 5%;
+  }
+  .thE {
+    width: 40%;
+  }
+  .headFromTo {
+    background-color: white;
+    border: solid 1px gray;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+  }
+  .bodyAtitle {
+    flex: 0.1;
+  }
+  .fromParent {
+    flex: 0.3;
+  }
+  .toParent {
+    flex: 0.3;
+  }
+  .fromIconDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #fromIcon {
+    font-size: 15px;
+  }
+  .fromParent,
+  .toParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fromDiv {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e8f0fe;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    height: 70%;
+    padding: 0px 5px;
+  }
+  #selectTag {
+    width: 100%;
+    background-color: #e8f0fe;
+    border: none;
+    .css-13cymwt-control,
+    .css-t3ipsp-control {
+      background-color: #e8f0fe;
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  // .selectTag {
+  //   border: none;
+  //   background-color: #e8f0fe;
+  //   font-size: 15px;
+
+  //   option {
+  //     padding: 5px 5px;
+  //   }
+  // }
+  // .selectTag:focus {
+  //   outline: none;
+  // }
+  .toDiv.send {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sendDivbtn {
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #1f8be1;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sendIconSpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }
+  #sendIcon {
+    font-size: 13px;
+  }
+}
